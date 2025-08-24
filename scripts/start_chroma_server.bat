@@ -1,0 +1,1 @@
+chroma run ./scripts/chroma_server_config.yaml

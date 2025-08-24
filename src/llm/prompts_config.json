@@ -1,0 +1,7 @@
+[
+    {
+        "name": "semantic_search",
+        "system_prompt_file_name": "system_semantic_search",
+        "user_prompt_file_name": "user_general"
+    }
+]
