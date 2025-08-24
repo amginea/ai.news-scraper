@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Scraper</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="{{url_for('static', filename='styles.css')}}" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Left side menu -->
+    <div class="sidebar">
+        <a class="menu-item" data-content="news">
+            <i class="fas fa-newspaper"></i>
+            News Scraper
+        </a>
+        <a class="menu-item" data-content="search">
+            <i class="fas fa-search"></i>
+            Search
+        </a>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+        <div id="content-placeholder" class="section">
+            <div class="section-title">Welcome</div>
+            <p>Please select an item from the menu to display content here.</p>
+        </div>
+    </div>
+</body>
+<script src="{{url_for('static', filename='scripts.js')}}"></script>
+
+</html>

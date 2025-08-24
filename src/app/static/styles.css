@@ -1,0 +1,97 @@
+html {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    margin: 0;
+}
+
+.sidebar {
+    background: #404040;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: #d8d6d6;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: background 0.3s;
+    border-radius: 10px;
+    margin: 5px 10px;
+    background: #525252;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background: #6b6b6b;
+}
+
+.menu-item i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #525252;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
