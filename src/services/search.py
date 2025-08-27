@@ -16,5 +16,5 @@ def search_info(query, collection_name="markdowns") -> str:
     )    
     print(semantic_search_prompt())
     rag_chain = create_retrieval_chain(retriever, question_answer_chain)
-    response = rag_chain.invoke({"input": query, "context": docs})
+    response = rag_chain.invoke({"input": query})
     return response["answer"]
