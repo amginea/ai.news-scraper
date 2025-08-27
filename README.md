@@ -40,7 +40,9 @@ py -m pip --version
 5. Install the following packages
 ```bash
 pip install chromadb
+pip install langchain_chroma
 pip install langchain
+pip install langchain_openai
 pip install langchain_community
 pip install flask
 pip install firecrawl-py
