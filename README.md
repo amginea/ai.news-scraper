@@ -35,9 +35,7 @@ py -m venv .venv
 ```bash
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 ```
-You should see the (.venv) on the left side, see the following:
-
-<img width="347" height="23" alt="image" src="https://github.com/user-attachments/assets/886ea093-d72c-4dd2-baaf-abfc19d60259" />
+You should see the `(.venv)` on the left side.
 
 4. Install and update `pip` by using the following cmd
 ```bash
