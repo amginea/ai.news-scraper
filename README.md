@@ -3,6 +3,12 @@
 ## Description
 It is the small web service with ui part developed by using Python and Flask. Implements the web page scraping and semantic search on the content retrieved from pages
 
+## High level diagrams
+Describes how the solution is working and what components are used
+
+
+<img width="864" height="633" alt="Untitled Diagram drawio (4)" src="https://github.com/user-attachments/assets/83ff916e-5b5f-4edb-8c60-4c96e3f76133" />
+
 ## Dependencies
 - python
 - flask
@@ -17,11 +23,15 @@ It is the small web service with ui part developed by using Python and Flask. Im
 1. Install [python](https://www.python.org/downloads/)
 2. Configure virtual environment by usng `venv`. Run the following code being in root directory of the repo
 ```bash
-py python3 -m venv .venv
+py -m venv .venv
 ```
 3. Activate virtual environment to install all packages near to repo
 ```bash
 .venv/Scripts/activate
+```
+[For Windows] In case if you have policy problem when running the script use the following cmd:
+```bash
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 ```
 You should see the (.venv) on the left side, see the following:
 
@@ -36,17 +46,19 @@ py -m pip --version
 5. Install the following packages
 ```bash
 pip install chromadb
+pip install langchain_chroma
 pip install langchain
+pip install langchain_openai
 pip install langchain_community
 pip install flask
 pip install firecrawl-py
 ```
-6. Run chromadb server by the following script (use different terminal). Virtual environment should be activated. See above
+6. [Use different terminal] Run chromadb server by the following script. Virtual environment should be activated. See above.
 ```bash
 .\scripts\start_chroma_server.bat
 ```
 
-7. Run web application script (use different terminal). Virtual environment should be activated. See above
+7. [Use different terminal] Run web application script. Virtual environment should be activated. See above
 ```bash
 python ./src/app.py
 ```
