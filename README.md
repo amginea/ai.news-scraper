@@ -23,6 +23,10 @@ py -m venv .venv
 ```bash
 .venv/Scripts/activate
 ```
+[For Windows] In case if you have policy problem when running the script use the following cmd:
+```bash
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
+```
 You should see the (.venv) on the left side, see the following:
 
 <img width="347" height="23" alt="image" src="https://github.com/user-attachments/assets/886ea093-d72c-4dd2-baaf-abfc19d60259" />
