@@ -3,6 +3,12 @@
 ## Description
 It is the small web service with ui part developed by using Python and Flask. Implements the web page scraping and semantic search on the content retrieved from pages
 
+## High level diagrams
+Describes how the solution is working and what components are used
+
+
+<img width="864" height="633" alt="Untitled Diagram drawio (4)" src="https://github.com/user-attachments/assets/83ff916e-5b5f-4edb-8c60-4c96e3f76133" />
+
 ## Dependencies
 - python
 - flask
