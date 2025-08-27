@@ -17,7 +17,7 @@ It is the small web service with ui part developed by using Python and Flask. Im
 1. Install [python](https://www.python.org/downloads/)
 2. Configure virtual environment by usng `venv`. Run the following code being in root directory of the repo
 ```bash
-py python3 -m venv .venv
+py -m venv .venv
 ```
 3. Activate virtual environment to install all packages near to repo
 ```bash
