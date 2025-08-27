@@ -41,12 +41,12 @@ pip install langchain_community
 pip install flask
 pip install firecrawl-py
 ```
-6. Run chromadb server by the following script (use different terminal). Virtual environment should be activated. See above
+6. Run chromadb server by the following script. Virtual environment should be activated. See above.
 ```bash
 .\scripts\start_chroma_server.bat
 ```
 
-7. Run web application script (use different terminal). Virtual environment should be activated. See above
+7. Run web application script. Virtual environment should be activated. See above
 ```bash
 python ./src/app.py
 ```
