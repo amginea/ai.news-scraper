@@ -15,6 +15,8 @@ Describes how the solution is working and what components are used
 - pip
 - venv
 - langchain
+- langchain_chroma
+- langchain_openai
 - langchain_community
 - chromadb
 - firecrawl
@@ -59,6 +61,8 @@ pip install firecrawl-py
 ```
 
 7. [Use different terminal] Run web application script. Virtual environment should be activated. See above
+
+NOTE: Request env variables from Ildar or use own
 ```bash
 python ./src/app.py
 ```
